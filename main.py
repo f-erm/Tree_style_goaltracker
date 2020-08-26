@@ -4,11 +4,11 @@ import os
 
 
 #TODO
-#Alles auf sqlite3 umstellen
-#das load beenden
-#überprüfen ob load auch wirlich das top aim findet, auch wenn es irgendwo in der mitte steht
+#Alles auf sqlite3 umstellen. Load so machen, dass alle erstmal geladen werden, und wenn sie die referenz auf ihre kinder suchen, scaun sie einfach
+#mittels id im dict nach -> alles kann in beleibiger reihenfolge geladen werden und verknüft sich automatisch
 #jetzt da aims über id zugänglich sind müssen die tops nicht mehr immer ls referenz mitangegeben werden, oder? zumindest überprüfen bitte
 #switchsite und loadsite irgendwie besser machen
+#scrollable frame in seperate klasse auslagern
 ###################################
 #die ganzen loadsite referenzen, die den frame immer als argument mitgeben entfernen und direkt den ensprechenden frame geben
 #alles optisch hübscher machen/stabilität testen
